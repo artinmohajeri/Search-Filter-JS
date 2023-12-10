@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: rgb(199, 199, 199);
+}
+.container{
+    width: 590px;
+    height: 600px;
+    box-shadow: 0px 0px 26px #a0a0a0;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+.container form{
+    border: 1px solid rgb(82, 74, 235);
+    border-radius: 4px;
+}
+.container form input{
+    font-weight: 600;
+    outline: none;
+}
+.product{
+    cursor: pointer;
+}
+.product img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.product .details h2{
+    font-size: 18px;
+    color: #1d1d1d;
+}
+.product .details h3{
+    font-size: 14px;
+    color:#1d1d1d ;
+}
